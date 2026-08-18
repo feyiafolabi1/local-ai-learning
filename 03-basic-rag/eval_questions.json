@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Why can quantization increase inference speed?",
+    "expected_file": "quantization.txt",
+    "expected_chunk": 3,
+    "should_answer": true
+  },
+  {
+    "question": "Why does KV-cache memory increase with longer context?",
+    "expected_file": "kv_cache.txt",
+    "expected_chunk": 3,
+    "should_answer": true
+  },
+  {
+    "question": "Does stacking alone create HBM's bandwidth advantage?",
+    "expected_file": "hbm.txt",
+    "expected_chunk": 5,
+    "should_answer": true
+  },
+  {
+    "question": "What determines the size of the KV cache?",
+    "expected_file": "kv_cache.txt",
+    "expected_chunk": 5,
+    "should_answer": true
+  },
+  {
+    "question": "Why can quantization reduce model quality?",
+    "expected_file": "quantization.txt",
+    "expected_chunk": 5,
+    "should_answer": true
+  },
+  {
+    "question": "Why is HBM relatively power-efficient?",
+    "expected_file": "hbm.txt",
+    "expected_chunk": 4,
+    "should_answer": true
+  },
+  {
+    "question": "What year was HBM invented?",
+    "expected_file": null,
+    "expected_chunk": null,
+    "should_answer": false
+  },
+  {
+    "question": "Who invented quantization?",
+    "expected_file": null,
+    "expected_chunk": null,
+    "should_answer": false
+  },
+  {
+    "question": "How many parameters does this transformer have?",
+    "expected_file": null,
+    "expected_chunk": null,
+    "should_answer": false
+  }
+]

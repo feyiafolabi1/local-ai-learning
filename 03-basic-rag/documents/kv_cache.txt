@@ -1,0 +1,16 @@
+During transformer inference, the model calculates attention keys and
+values for each processed token.
+
+The KV cache stores the keys and values from previous tokens. When the
+model generates a new token, it can reuse the stored information instead
+of recomputing keys and values for the entire preceding sequence.
+
+KV-cache memory usage grows as the context becomes longer because each new
+token adds more key and value data.
+
+Memory usage also grows with batch size because the model must maintain
+separate cached information for multiple sequences.
+
+The size of the KV cache depends on model properties such as the number of
+layers, the number of key-value heads, the head dimension, the precision
+used to store the cache, and the total number of tokens.

@@ -1,0 +1,18 @@
+High Bandwidth Memory, or HBM, is a type of DRAM designed for systems
+that need very high memory bandwidth.
+
+HBM stacks multiple DRAM dies vertically and connects them with
+through-silicon vias. The stacks are placed close to a GPU or accelerator
+using an interposer or other advanced package.
+
+HBM uses a very wide memory interface with many parallel channels. This
+allows many bits to move simultaneously without requiring each individual
+connection to run at extremely high signaling speeds.
+
+The short electrical connections between HBM and the accelerator reduce
+the distance that data must travel. This lowers the energy required to
+move each bit and improves bandwidth efficiency.
+
+Stacking helps fit significant memory density and connectivity into a
+compact package. Stacking alone does not create high bandwidth. The wide
+interface, parallel channels, TSVs, and package connections are essential.

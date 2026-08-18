@@ -1,0 +1,18 @@
+Quantization reduces the numerical precision used to store or process
+model weights and sometimes activations.
+
+For example, converting weights from 16-bit values to 4-bit values reduces
+the number of bytes required to store the model. A smaller model can fit
+into less memory.
+
+Quantization can improve inference speed when performance is limited by
+memory bandwidth because fewer bytes must be transferred from memory into
+the processor.
+
+Speed improvements depend on hardware and software support. A processor
+needs efficient low-precision instructions or optimized quantized kernels.
+Some systems must dequantize values during computation, which introduces
+additional work.
+
+Using fewer bits can reduce model quality because the values are represented
+less precisely. Quantization methods attempt to minimize this loss.
