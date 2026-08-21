@@ -1,9 +1,13 @@
+# Generated vector indexes and databases
+index.json
+pdf_index.json
+**/chroma_db/
+
+# Source PDFs are downloaded separately
+04-pdf-rag/documents/*.pdf
+05-vector-database/documents/*.pdf
+
 .DS_Store
 __pycache__/
 *.pyc
 .env
-
-index.json
-pdf_index.json
-
-04-pdf-rag/documents/*.pdf
