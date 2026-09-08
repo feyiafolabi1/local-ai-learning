@@ -1,0 +1,27 @@
+[
+  {
+    "question": "What is the purpose of the Tensor Data Mover?",
+    "expected_filename": "amd-cdna5-whitepaper.pdf",
+    "acceptable_pages": [10]
+  },
+  {
+    "question": "What is scaled dot-product attention?",
+    "expected_filename": "attention-is-all-you-need.pdf",
+    "acceptable_pages": [4]
+  },
+  {
+    "question": "Why does the Transformer use multiple attention heads?",
+    "expected_filename": "attention-is-all-you-need.pdf",
+    "acceptable_pages": [4]
+  },
+  {
+    "question": "What is Kimi Delta Attention?",
+    "expected_filename": "kimi-k3-tech-report.pdf",
+    "acceptable_pages": [2, 4]
+  },
+  {
+    "question": "How many GPUs are in the AMD Helios scale-up domain?",
+    "expected_filename": "amd-cdna5-whitepaper.pdf",
+    "acceptable_pages": [2, 12]
+  }
+]
