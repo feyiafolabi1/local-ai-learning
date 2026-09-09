@@ -1,0 +1,10 @@
+Local AI project notes
+
+Current target:
+Learn how tool calling works before moving to MCP.
+
+Preferred local chat model:
+ministral-3:3b
+
+Current chapter:
+Chapter 10 - Tool Calling
