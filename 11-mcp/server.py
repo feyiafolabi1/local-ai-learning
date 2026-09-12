@@ -1,4 +1,5 @@
 from mcp.server.mcpserver import MCPServer
+from os.path import expanduser
 
 
 mcp = MCPServer("Local AI Learning MCP Server")
@@ -32,6 +33,24 @@ def calculate_power(
     return capacitance * (voltage ** 2) * frequency_hz
 
 
+@mcp.tool()
+def read_text_file(path: str) -> str:
+    """
+    Read the contents of a local text file.
+
+    Args:
+        path: Path to the text file.
+
+    Returns:
+        Contents of the file.
+    """
+
+    path = expanduser(path)
+
+    with open(path, "r") as file:
+        return file.read()
+
+
 @mcp.resource("notes://project")
 def project_notes() -> str:
     """
@@ -42,13 +61,13 @@ def project_notes() -> str:
 Local AI Learning Project
 
 Current chapter:
-Chapter 11 - MCP
+Chapter 12 - Agents
 
 Previous chapter:
-Chapter 10 - Tool Calling
+Chapter 11 - MCP
 
 Current goal:
-Learn how MCP standardizes tools and resources.
+Learn how agents repeatedly choose tools and use observations.
 """
 
 
