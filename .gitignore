@@ -7,6 +7,12 @@ pdf_index.json
 04-pdf-rag/documents/*.pdf
 05-vector-database/documents/*.pdf
 
+# Chapter 13 - fine-tuning artifacts
+13-fine-tuning/lora_adapter/
+13-fine-tuning/lora_adapter_v2/
+13-fine-tuning/*.tar.gz
+
+
 .DS_Store
 __pycache__/
 *.pyc
