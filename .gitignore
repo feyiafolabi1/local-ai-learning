@@ -12,6 +12,10 @@ pdf_index.json
 13-fine-tuning/lora_adapter_v2/
 13-fine-tuning/*.tar.gz
 
+# Chapter 14 - model artifacts
+14-quantization-export/*.gguf
+14-quantization-export/*-merged/
+
 
 .DS_Store
 __pycache__/
